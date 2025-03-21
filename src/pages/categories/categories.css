@@ -1,0 +1,95 @@
+body {
+	font-family: Arial, sans-serif;
+	padding: 20px;
+	background-color: #f6f6f6;
+ }
+ 
+ h1.h1 {
+	text-align: center;
+	margin-bottom: 30px;
+	color: #333;
+ }
+ 
+ .addform, .editform {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	margin-bottom: 20px;
+ }
+ 
+ .inp1, .inp2 {
+	padding: 8px 12px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	width: 250px;
+	font-size: 16px;
+ }
+ 
+ .addbtn, .editbtn {
+	padding: 8px 16px;
+	background-color: #2d89ef;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-weight: bold;
+	transition: background-color 0.2s ease;
+ }
+ 
+ .addbtn:hover, .editbtn:hover {
+	background-color: #1b5fbf;
+ }
+ 
+ .table {
+	width: 100%;
+	border-collapse: collapse;
+	background-color: white;
+	box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+	margin-top: 20px;
+ }
+ 
+ .thead {
+	background-color: #2d89ef;
+	color: white;
+ }
+ 
+ .tr {
+	text-align: center;
+
+ }
+ .tr:hover{
+	background-color: rgb(162, 160, 160);
+	color: white;
+ }
+ 
+ .th, .td, .id, .name, .button {
+	padding: 12px;
+	border: 1px solid #ddd;
+ }
+ 
+ .delete, .edit {
+	margin: 0 5px;
+	padding: 6px 12px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	color: white;
+	font-weight: bold;
+ }
+ 
+ .delete {
+	background-color: red;
+ }
+ 
+ .delete:hover {
+	background-color: rgb(203, 18, 18);
+ }
+ 
+ .edit {
+	background-color: green;
+ }
+ 
+ .edit:hover {
+	background-color: rgb(0, 255, 0);
+ }
+ 
